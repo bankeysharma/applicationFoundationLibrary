@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kosal.core.common", "common\kosal.core.common.csproj", "{532F3CFA-2182-4C46-873A-D7F8569EE011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "security", "security", "{2692DE2E-CE33-4707-B8F6-2001BFC042F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{160D1D0D-F491-4CA4-A461-D8A596E6CA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kosal.core.security.keyGen", "security\keyGen\kosal.core.security.keyGen.csproj", "{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows", "windows", "{8EC0DB76-7199-4317-B6EB-567588747E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kosal.core.windows.wmi", "windows\WMI\kosal.core.windows.wmi.csproj", "{D1A364C7-AE84-408D-81F5-719CE94B286D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://bankey-think:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = common\\kosal.core.common.csproj
+		SccProjectTopLevelParentUniqueName0 = kosal.core.sln
+		SccProjectName0 = common
+		SccAuxPath0 = http://bankey-think:8080/tfs/defaultcollection
+		SccLocalPath0 = common
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = security\\keyGen\\kosal.core.security.keyGen.csproj
+		SccProjectTopLevelParentUniqueName1 = kosal.core.sln
+		SccProjectName1 = security/keyGen
+		SccAuxPath1 = http://bankey-think:8080/tfs/defaultcollection
+		SccLocalPath1 = security\\keyGen
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532F3CFA-2182-4C46-873A-D7F8569EE011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532F3CFA-2182-4C46-873A-D7F8569EE011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532F3CFA-2182-4C46-873A-D7F8569EE011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532F3CFA-2182-4C46-873A-D7F8569EE011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A364C7-AE84-408D-81F5-719CE94B286D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A364C7-AE84-408D-81F5-719CE94B286D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A364C7-AE84-408D-81F5-719CE94B286D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A364C7-AE84-408D-81F5-719CE94B286D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{532F3CFA-2182-4C46-873A-D7F8569EE011} = {160D1D0D-F491-4CA4-A461-D8A596E6CA9F}
+		{5CFDD479-AE5A-4B96-8AEE-5669CB45CA08} = {2692DE2E-CE33-4707-B8F6-2001BFC042F6}
+		{D1A364C7-AE84-408D-81F5-719CE94B286D} = {8EC0DB76-7199-4317-B6EB-567588747E0E}
+	EndGlobalSection
+EndGlobal
